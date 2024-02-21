@@ -14,7 +14,7 @@ namespace HandsOnLinq
 
 		public static IEnumerable<string> Task1(char c, IEnumerable<string> stringList)
 		{
-			throw new NotImplementedException();
+			return stringList.Where(x => x.Length > 1 && x.StartsWith(c) && x.EndsWith(c));
 		}
 
 		public static IEnumerable<int> Task2(IEnumerable<string> stringList)
