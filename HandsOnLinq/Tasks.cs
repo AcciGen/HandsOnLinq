@@ -19,7 +19,7 @@ namespace HandsOnLinq
 
 		public static IEnumerable<int> Task2(IEnumerable<string> stringList)
 		{
-			throw new NotImplementedException();
+			return stringList.Where(x => x == stringList.)
 		}
 
 		public static IEnumerable<string> Task3(IEnumerable<string> stringList)
