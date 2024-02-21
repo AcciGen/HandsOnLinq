@@ -14,22 +14,23 @@ namespace HandsOnLinq
 
 		public static IEnumerable<string> Task1(char c, IEnumerable<string> stringList)
 		{
-			return stringList.Where(x => x.Length > 1 && x.StartsWith(c) && x.EndsWith(c));
+			return stringList.Select(str => str)
+				.Where(x => x.Length > 1 && x.StartsWith(c) && x.EndsWith(c));
 		}
 
 		public static IEnumerable<int> Task2(IEnumerable<string> stringList)
 		{
-			return stringList.Where(x => x == stringList.)
+			return stringList.Select(selector: str => str.Length).Order();
 		}
 
 		public static IEnumerable<string> Task3(IEnumerable<string> stringList)
 		{
-			throw new NotImplementedException();
+			return stringList.Select(str => str.First().ToString() + str.Last().ToString());
 		}
 
 		public static IEnumerable<string> Task4(int k, IEnumerable<string> stringList)
 		{
-			throw new NotImplementedException();
+			return stringList.Select(str => str).Where(x => x.Length == k && x[x.Length - 1] == k);
 		}
 
 		public static IEnumerable<string> Task5(IEnumerable<int> integerList)

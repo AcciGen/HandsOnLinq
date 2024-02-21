@@ -4,16 +4,26 @@
 	{
 		private static void Main(string[] args)
 		{
-			char c = 'a';
 			List<string> stringList = ["arcanera", "a", "armora", "arkane"];
+			char c = 'a';
 
-			var result = Tasks.Task1(c, stringList);
-			foreach(string res in result)
+			var task1Result = Tasks.Task1(c, stringList);
+			Console.WriteLine("Task 1");
+			foreach(string res in task1Result)
 			{
 				Console.WriteLine(res);
 			}
 
+			var task3Result = Tasks.Task3(stringList);
+			Console.WriteLine("\nTask 3");
+			foreach (string res in task3Result)
+            {
+                Console.WriteLine(res);
+            }
 
-		}
+			int k = 4;
+			stringList = ["A2K4", "ARK35", "DA4K"];
+
+        }
 	}
 }
