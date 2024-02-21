@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOnLinq", "HandsOnLinq\HandsOnLinq.csproj", "{AE23D877-DCD5-4759-98D3-AA040F7EE425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOnLinq.Test", "HandsOnLinq.Test\HandsOnLinq.Test.csproj", "{C100A317-1753-4140-95BE-91F932F8FBE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE23D877-DCD5-4759-98D3-AA040F7EE425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE23D877-DCD5-4759-98D3-AA040F7EE425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE23D877-DCD5-4759-98D3-AA040F7EE425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE23D877-DCD5-4759-98D3-AA040F7EE425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C100A317-1753-4140-95BE-91F932F8FBE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C100A317-1753-4140-95BE-91F932F8FBE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C100A317-1753-4140-95BE-91F932F8FBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C100A317-1753-4140-95BE-91F932F8FBE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5C5653B-5F61-4A27-AD87-C4BDDEEFA125}
+	EndGlobalSection
+EndGlobal
